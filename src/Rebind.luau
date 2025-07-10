@@ -1,8 +1,8 @@
 local UserInputService = game:GetService("UserInputService")
 
-local getDeviceFromInput = require(script.Parent.getDeviceFromInput)
 local Inputs = require(script.Parent.Inputs)
-local Promise = require(script.Parent.Parent.Promise)
+local Promise = require(game.ReplicatedStorage["rbxts_include"].Promise)
+local getDeviceFromInput = require(script.Parent.getDeviceFromInput)
 
 --[=[
 	Queries for the first button a user presses. This is useful for rebinding based on user input.

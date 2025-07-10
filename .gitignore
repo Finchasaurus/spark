@@ -15,3 +15,10 @@
 
 # Moonwave
 /build
+
+# Rbxts
+/node_modules
+/out
+/include
+*.tsbuildinfo
+rbxts**.tgz
